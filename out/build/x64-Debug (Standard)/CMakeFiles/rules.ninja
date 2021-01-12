@@ -46,6 +46,42 @@ rule CXX_EXECUTABLE_LINKER__01-HelloWorld_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__02-Menu_Debug
+  deps = msvc
+  command = E:\ProgramData\Microsoft\VisualStudio\Community\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64\cl.exe  /nologo /TP $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__02-Menu_Debug
+  command = cmd.exe /C "$PRE_LINK && E:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=$OBJECT_DIR --rc="E:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="E:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests $MANIFESTS -- E:\ProgramData\Microsoft\VisualStudio\Community\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__03-Misc_Debug
+  deps = msvc
+  command = E:\ProgramData\Microsoft\VisualStudio\Community\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64\cl.exe  /nologo /TP $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__03-Misc_Debug
+  command = cmd.exe /C "$PRE_LINK && E:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=$OBJECT_DIR --rc="E:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="E:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests $MANIFESTS -- E:\ProgramData\Microsoft\VisualStudio\Community\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__Examples_Debug
   deps = msvc
   command = E:\ProgramData\Microsoft\VisualStudio\Community\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64\cl.exe  /nologo /TP $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in

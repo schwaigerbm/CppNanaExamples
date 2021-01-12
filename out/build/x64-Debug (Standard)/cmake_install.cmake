@@ -35,6 +35,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("E:/cpp/Examples/out/build/x64-Debug (Standard)/01-HelloWorld/cmake_install.cmake")
+  include("E:/cpp/Examples/out/build/x64-Debug (Standard)/02-Menu/cmake_install.cmake")
+  include("E:/cpp/Examples/out/build/x64-Debug (Standard)/03-Misc/cmake_install.cmake")
   include("E:/cpp/Examples/out/build/x64-Debug (Standard)/Examples/cmake_install.cmake")
 
 endif()

@@ -20,6 +20,18 @@
 //Value Computed by CMake
 01-HelloWorld_SOURCE_DIR:STATIC=E:/cpp/Examples
 
+//Value Computed by CMake
+02-Menu_BINARY_DIR:STATIC=E:/cpp/Examples/out/build/x64-Debug (Standard)
+
+//Value Computed by CMake
+02-Menu_SOURCE_DIR:STATIC=E:/cpp/Examples
+
+//Value Computed by CMake
+03-Misc_BINARY_DIR:STATIC=E:/cpp/Examples/out/build/x64-Debug (Standard)
+
+//Value Computed by CMake
+03-Misc_SOURCE_DIR:STATIC=E:/cpp/Examples
+
 //Path to a program.
 CMAKE_AR:FILEPATH=E:/ProgramData/Microsoft/VisualStudio/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x64/lib.exe
 
@@ -363,7 +375,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_COMPILER

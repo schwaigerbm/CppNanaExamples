@@ -3,6 +3,12 @@ E:/cpp/Examples/out/build/x64-Debug (Standard)/CMakeFiles/rebuild_cache.dir
 E:/cpp/Examples/out/build/x64-Debug (Standard)/01-HelloWorld/CMakeFiles/01-HelloWorld.dir
 E:/cpp/Examples/out/build/x64-Debug (Standard)/01-HelloWorld/CMakeFiles/edit_cache.dir
 E:/cpp/Examples/out/build/x64-Debug (Standard)/01-HelloWorld/CMakeFiles/rebuild_cache.dir
+E:/cpp/Examples/out/build/x64-Debug (Standard)/02-Menu/CMakeFiles/02-Menu.dir
+E:/cpp/Examples/out/build/x64-Debug (Standard)/02-Menu/CMakeFiles/edit_cache.dir
+E:/cpp/Examples/out/build/x64-Debug (Standard)/02-Menu/CMakeFiles/rebuild_cache.dir
+E:/cpp/Examples/out/build/x64-Debug (Standard)/03-Misc/CMakeFiles/03-Misc.dir
+E:/cpp/Examples/out/build/x64-Debug (Standard)/03-Misc/CMakeFiles/edit_cache.dir
+E:/cpp/Examples/out/build/x64-Debug (Standard)/03-Misc/CMakeFiles/rebuild_cache.dir
 E:/cpp/Examples/out/build/x64-Debug (Standard)/Examples/CMakeFiles/Examples.dir
 E:/cpp/Examples/out/build/x64-Debug (Standard)/Examples/CMakeFiles/edit_cache.dir
 E:/cpp/Examples/out/build/x64-Debug (Standard)/Examples/CMakeFiles/rebuild_cache.dir

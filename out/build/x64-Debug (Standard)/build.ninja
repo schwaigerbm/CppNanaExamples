@@ -129,6 +129,138 @@ build 01-HelloWorld\rebuild_cache: phony 01-HelloWorld\CMakeFiles\rebuild_cache.
 # =============================================================================
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 02-Menu
+
+
+#############################################
+# Order-only phony target for 02-Menu
+
+build cmake_object_order_depends_target_02-Menu: phony || 02-Menu\CMakeFiles\02-Menu.dir
+
+build 02-Menu\CMakeFiles\02-Menu.dir\02-Menu.cpp.obj: CXX_COMPILER__02-Menu_Debug ..\..\..\02-Menu\02-Menu.cpp || cmake_object_order_depends_target_02-Menu
+  DEFINES = -DNANA_ENABLE_JPEG=1 -DNANA_ENABLE_PNG=1 -DUSE_LIBJPEG_FROM_OS=1 -DUSE_LIBPNG_FROM_OS=1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
+  INCLUDES = -IE:\vcpkg\vcpkg\installed\x64-windows\include
+  OBJECT_DIR = 02-Menu\CMakeFiles\02-Menu.dir
+  OBJECT_FILE_DIR = 02-Menu\CMakeFiles\02-Menu.dir
+  TARGET_COMPILE_PDB = 02-Menu\CMakeFiles\02-Menu.dir\
+  TARGET_PDB = 02-Menu\02-Menu.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-Menu
+
+
+#############################################
+# Link the executable 02-Menu\02-Menu.exe
+
+build 02-Menu\02-Menu.exe: CXX_EXECUTABLE_LINKER__02-Menu_Debug 02-Menu\CMakeFiles\02-Menu.dir\02-Menu.cpp.obj | E$:\vcpkg\vcpkg\installed\x64-windows\debug\lib\nana.lib E$:\vcpkg\vcpkg\installed\x64-windows\debug\lib\libpng16d.lib E$:\vcpkg\vcpkg\installed\x64-windows\debug\lib\zlibd.lib E$:\vcpkg\vcpkg\installed\x64-windows\debug\lib\jpegd.lib
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = E:\vcpkg\vcpkg\installed\x64-windows\debug\lib\nana.lib  E:\vcpkg\vcpkg\installed\x64-windows\debug\lib\libpng16d.lib  E:\vcpkg\vcpkg\installed\x64-windows\debug\lib\zlibd.lib  E:\vcpkg\vcpkg\installed\x64-windows\debug\lib\jpegd.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = 02-Menu\CMakeFiles\02-Menu.dir
+  POST_BUILD = cmd.exe /C "cd /D "E:\cpp\Examples\out\build\x64-Debug (Standard)\02-Menu" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file E:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "E:/cpp/Examples/out/build/x64-Debug (Standard)/02-Menu/02-Menu.exe" -installedDir E:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out"
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 02-Menu\CMakeFiles\02-Menu.dir\
+  TARGET_FILE = 02-Menu\02-Menu.exe
+  TARGET_IMPLIB = 02-Menu\02-Menu.lib
+  TARGET_PDB = 02-Menu\02-Menu.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build 02-Menu\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "E:\cpp\Examples\out\build\x64-Debug (Standard)\02-Menu" && E:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 02-Menu\edit_cache: phony 02-Menu\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 02-Menu\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "E:\cpp\Examples\out\build\x64-Debug (Standard)\02-Menu" && E:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SE:\cpp\Examples -B"E:\cpp\Examples\out\build\x64-Debug (Standard)""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 02-Menu\rebuild_cache: phony 02-Menu\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/cpp/Examples/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-Misc
+
+
+#############################################
+# Order-only phony target for 03-Misc
+
+build cmake_object_order_depends_target_03-Misc: phony || 03-Misc\CMakeFiles\03-Misc.dir
+
+build 03-Misc\CMakeFiles\03-Misc.dir\03-Misc.cpp.obj: CXX_COMPILER__03-Misc_Debug ..\..\..\03-Misc\03-Misc.cpp || cmake_object_order_depends_target_03-Misc
+  DEFINES = -DNANA_ENABLE_JPEG=1 -DNANA_ENABLE_PNG=1 -DUSE_LIBJPEG_FROM_OS=1 -DUSE_LIBPNG_FROM_OS=1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
+  INCLUDES = -IE:\vcpkg\vcpkg\installed\x64-windows\include
+  OBJECT_DIR = 03-Misc\CMakeFiles\03-Misc.dir
+  OBJECT_FILE_DIR = 03-Misc\CMakeFiles\03-Misc.dir
+  TARGET_COMPILE_PDB = 03-Misc\CMakeFiles\03-Misc.dir\
+  TARGET_PDB = 03-Misc\03-Misc.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-Misc
+
+
+#############################################
+# Link the executable 03-Misc\03-Misc.exe
+
+build 03-Misc\03-Misc.exe: CXX_EXECUTABLE_LINKER__03-Misc_Debug 03-Misc\CMakeFiles\03-Misc.dir\03-Misc.cpp.obj | E$:\vcpkg\vcpkg\installed\x64-windows\debug\lib\nana.lib E$:\vcpkg\vcpkg\installed\x64-windows\debug\lib\libpng16d.lib E$:\vcpkg\vcpkg\installed\x64-windows\debug\lib\zlibd.lib E$:\vcpkg\vcpkg\installed\x64-windows\debug\lib\jpegd.lib
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = E:\vcpkg\vcpkg\installed\x64-windows\debug\lib\nana.lib  E:\vcpkg\vcpkg\installed\x64-windows\debug\lib\libpng16d.lib  E:\vcpkg\vcpkg\installed\x64-windows\debug\lib\zlibd.lib  E:\vcpkg\vcpkg\installed\x64-windows\debug\lib\jpegd.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = 03-Misc\CMakeFiles\03-Misc.dir
+  POST_BUILD = cmd.exe /C "cd /D "E:\cpp\Examples\out\build\x64-Debug (Standard)\03-Misc" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file E:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "E:/cpp/Examples/out/build/x64-Debug (Standard)/03-Misc/03-Misc.exe" -installedDir E:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out"
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 03-Misc\CMakeFiles\03-Misc.dir\
+  TARGET_FILE = 03-Misc\03-Misc.exe
+  TARGET_IMPLIB = 03-Misc\03-Misc.lib
+  TARGET_PDB = 03-Misc\03-Misc.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build 03-Misc\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "E:\cpp\Examples\out\build\x64-Debug (Standard)\03-Misc" && E:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 03-Misc\edit_cache: phony 03-Misc\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 03-Misc\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "E:\cpp\Examples\out\build\x64-Debug (Standard)\03-Misc" && E:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SE:\cpp\Examples -B"E:\cpp\Examples\out\build\x64-Debug (Standard)""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 03-Misc\rebuild_cache: phony 03-Misc\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/cpp/Examples/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Examples
 
 
@@ -194,6 +326,14 @@ build 01-HelloWorld: phony 01-HelloWorld\01-HelloWorld.exe
 
 build 01-HelloWorld.exe: phony 01-HelloWorld\01-HelloWorld.exe
 
+build 02-Menu: phony 02-Menu\02-Menu.exe
+
+build 02-Menu.exe: phony 02-Menu\02-Menu.exe
+
+build 03-Misc: phony 03-Misc\03-Misc.exe
+
+build 03-Misc.exe: phony 03-Misc\03-Misc.exe
+
 build Examples: phony Examples\Examples.exe
 
 build Examples.exe: phony Examples\Examples.exe
@@ -206,7 +346,7 @@ build Examples.exe: phony Examples\Examples.exe
 #############################################
 # Folder: E:/cpp/Examples/out/build/x64-Debug (Standard)
 
-build all: phony 01-HelloWorld\all Examples\all
+build all: phony 01-HelloWorld\all 02-Menu\all 03-Misc\all Examples\all
 
 # =============================================================================
 
@@ -214,6 +354,20 @@ build all: phony 01-HelloWorld\all Examples\all
 # Folder: E:/cpp/Examples/out/build/x64-Debug (Standard)/01-HelloWorld
 
 build 01-HelloWorld\all: phony 01-HelloWorld\01-HelloWorld.exe
+
+# =============================================================================
+
+#############################################
+# Folder: E:/cpp/Examples/out/build/x64-Debug (Standard)/02-Menu
+
+build 02-Menu\all: phony 02-Menu\02-Menu.exe
+
+# =============================================================================
+
+#############################################
+# Folder: E:/cpp/Examples/out/build/x64-Debug (Standard)/03-Misc
+
+build 03-Misc\all: phony 03-Misc\03-Misc.exe
 
 # =============================================================================
 
@@ -229,14 +383,14 @@ build Examples\all: phony Examples\Examples.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ..\..\..\01-HelloWorld\CMakeLists.txt ..\..\..\CMakeLists.txt ..\..\..\Examples\CMakeLists.txt CMakeCache.txt CMakeFiles\3.18.20081302-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeSystem.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeDependentOption.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindJPEG.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindPNG.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindZLIB.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\jpeg\vcpkg-cmake-wrapper.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-config-version.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-config.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-targets-debug.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-targets-release.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-targets.cmake E$:\vcpkg\vcpkg\scripts\buildsystems\vcpkg.cmake
+build build.ninja: RERUN_CMAKE | ..\..\..\01-HelloWorld\CMakeLists.txt ..\..\..\02-Menu\CMakeLists.txt ..\..\..\03-Misc\CMakeLists.txt ..\..\..\CMakeLists.txt ..\..\..\Examples\CMakeLists.txt CMakeCache.txt CMakeFiles\3.18.20081302-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeSystem.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeDependentOption.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindJPEG.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindPNG.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindZLIB.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\jpeg\vcpkg-cmake-wrapper.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-config-version.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-config.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-targets-debug.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-targets-release.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-targets.cmake E$:\vcpkg\vcpkg\scripts\buildsystems\vcpkg.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ..\..\..\01-HelloWorld\CMakeLists.txt ..\..\..\CMakeLists.txt ..\..\..\Examples\CMakeLists.txt CMakeCache.txt CMakeFiles\3.18.20081302-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeSystem.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeDependentOption.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindJPEG.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindPNG.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindZLIB.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\jpeg\vcpkg-cmake-wrapper.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-config-version.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-config.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-targets-debug.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-targets-release.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-targets.cmake E$:\vcpkg\vcpkg\scripts\buildsystems\vcpkg.cmake: phony
+build ..\..\..\01-HelloWorld\CMakeLists.txt ..\..\..\02-Menu\CMakeLists.txt ..\..\..\03-Misc\CMakeLists.txt ..\..\..\CMakeLists.txt ..\..\..\Examples\CMakeLists.txt CMakeCache.txt CMakeFiles\3.18.20081302-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeSystem.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeDependentOption.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindJPEG.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindPNG.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\FindZLIB.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake E$:\ProgramData\Microsoft\VisualStudio\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\jpeg\vcpkg-cmake-wrapper.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-config-version.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-config.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-targets-debug.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-targets-release.cmake E$:\vcpkg\vcpkg\installed\x64-windows\share\unofficial-nana\unofficial-nana-targets.cmake E$:\vcpkg\vcpkg\scripts\buildsystems\vcpkg.cmake: phony
 
 
 #############################################
