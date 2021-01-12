@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "E:/cpp/Examples/out/build/x64-Debug (Standard)/Examples/CMakeFiles/Examples.dir/embed.manifest"

@@ -1,0 +1,7 @@
+# ninja log v5
+0	415	632146459	Examples/CMakeFiles/Examples.dir/Examples.cpp.obj	3a87e1b0d84089f3
+417	1105	632146459	Examples/Examples.exe	afa2a18cfcc29f8
+1	385	632146714	01-HelloWorld/CMakeFiles/01-HelloWorld.dir/01-HelloWorld.cpp.obj	785eb6211f20a76c
+385	1001	632146715	01-HelloWorld/01-HelloWorld.exe	385f67ba3b313adc
+1	1171	632147620	01-HelloWorld/CMakeFiles/01-HelloWorld.dir/01-HelloWorld.cpp.obj	e8c8429c0707975e
+1172	2245	632147621	01-HelloWorld/01-HelloWorld.exe	a12964bf1717fcd1
