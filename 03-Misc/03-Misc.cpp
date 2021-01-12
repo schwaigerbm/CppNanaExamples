@@ -1,11 +1,9 @@
 
 
 // Misc Nana Examples
-
-#include <iostream>
 #include <nana/gui.hpp>
-#include <nana/gui/widgets/menu.hpp>
-#include <nana/gui/widgets/button.hpp>
+#include <iostream>
+#include "MainWindow.h"
 
 
 
@@ -16,6 +14,10 @@ using namespace nana;
 
 int main()
 {
+	MainWindow MyWindow;
+	MyWindow.show();
+	exec();
+
 	std::cout << "Hellllo" << std::endl;
 	
 
